@@ -10,33 +10,33 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 
 
 # Site Settings
-title: "NetHui"
-email: "devfest@gdg.org.ua"
-description: "GDG DevFest is a set of events all around the world"
+title: "NetHui 2017"
+email: "nethui@internetnz.net.nz"
+description: "NetHui brings everybody and anybody that wants to talk about the Internet together."
 baseurl: "/zeppelin"
-url: "http://gdg-x.github.io"
+url: "https://gdg-x.github.io"
 permalink: "/blog/:title"
 googleAnalyticsTrackingId: "UA-43643469-5"
 googleAnalyticsSiteUrl: "gdg-x.github.io"
 siteVerification: "b9imDOrFawXaBXCC4r3uJDdswSYcalD-wWpMYhFq-no"
 
 # Organizer Info
-organizerName: "GDG Lviv"
-organizerAlternateName: "Google Developer Group Lviv"
-organizerDescription: "Open and volunteer geek communities who create exciting projects and share experience about Google technology with passion."
-organizerEmail: "lviv@gdg.org.ua"
-organizerLogo: "/img/seo/organizer-logo.png"
-organizerLink: "http://lviv.gdg.org.ua/"
+organizerName: "InternetNZ"
+organizerAlternateName: "InternetNZ"
+organizerDescription: "InternetNZ is a non-profit and open membership organisation. Our vision is for a better world through a better Internet."
+organizerEmail: "office@internetnz.net.nz"
+organizerLogo: "/img/seo/INNZ.png"
+organizerLink: "http://internetnz.nz/"
 
 # Head
 metaKeywords: "event, gdg, devfest, google, programming, android, chrome, developers, lviv"
-twitterAccount: "@DevFest"
+twitterAccount: "@NetHuiNZ"
 socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
 socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
 socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 
 # Documents
-c4pUrl: "http://bit.ly/dfua-c4p"
+c4pUrl: "https://bit.ly/dfua-c4p"
 c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
 
 
@@ -50,26 +50,34 @@ navigationLinks:
  - {permalink: "/logistics/", text: "Logistics"}
  - {permalink: "/hackathon/", text: "Hackathon"}
 bottomNavigationLinks:
- - {link: "http://bit.ly/dfua-c4p", text: "Become a speaker"}
+ - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
 rightNavigationButtons:
- - {link: "http://bit.ly/dfua-c4p", text: "Become a speaker"}
+ - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
 
 # Hero Block
-heroImage: "hero.jpg"
+heroImage: "AoteaCenter.jpg"
 heroTitle: "NetHui <typeout> 2017"
-eventDate: "9-10 November 2014"
-typeoutTextValues: '"", "Nelson", "South Auckland", "Rotorua"'
-typeoutFallback: "Season"
+eventDate: "November 9-10 2017"
+typeoutTextValues: '"", "Word One", "Word Two", "Word Three", "Word Four"'
+typeoutFallback: "Auckland"
 heroButtons:
- - {link: "http://bit.ly/dfua-c4p", text: "Become a speaker"}
+ - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
  - {permalink: "/#tickets", text: "Buy tickets"}
 
 # About Block
-aboutTitle: "About NetHui"
+aboutTitle: "About Intro Text"
 aboutBlock:
- - {title: "Conference", image: "conference.jpg", text: "The biggest Google related event in the country carefully crafted for you by GDG community! Awesome speakers and lots of fun!" }
- - {title: "Workshops", image: "workshop.jpg", text: "Full-day of workshops, hands-on experience, hacking and debugging. Come and tame your favourite technology!" }
- - {title: "Hackathon", image: "hackathon.jpg", text: "Full-day freestyle hackathon! Want some real team building on friday? Grab your team and join our hackathon!" }
+ - {title: "Title One", image: "conference.jpg", text: "The biggest Google related event in the country carefully crafted for you by GDG community! Awesome speakers and lots of fun!" }
+ - {title: "Title Two", image: "workshop.jpg", text: "Full-day of workshops, hands-on experience, hacking and debugging. Come and tame your favourite technology!" }
+ - {title: "Title Three", image: "hackathon.jpg", text: "Full-day freestyle hackathon! Want some real team building on friday? Grab your team and join our hackathon!" }
+
+# Statistic Block
+statisticBlockImage: "statistic.jpg"
+statisticBlock:
+ - {count: "350", specialCharacter: "+", info: "attendees", detail: "from everywhere"}
+ - {count: "48", specialCharacter: "+", info: "hours", detail: "of pure Google technologies"}
+ - {count: "20", specialCharacter: "+", info: "speakers", detail: "from country and beyond"}
+ - {count: "3", specialCharacter: "", info: "parallel tracks", detail: "plus entertainment lounge"}
 
 # Latest News Block
 latestNewsTitle: "Latest news"
@@ -82,12 +90,12 @@ rockstarSpeakersButtonText: "See all speakers"
 
 # Location Block
 locationBlockTitle: "Location"
-eventLocationName: "Aotea Center"
-eventLocationLink: "http://www.aucklandlive.co.nz/venue/aotea-centre"
-eventStreetAddress: "Aotea Square, Queen Street"
+eventLocationName: "Aotea Centre"
+eventLocationLink: "https://www.aucklandlive.co.nz/"
+eventStreetAddress: "Aotea Square, Queen St"
 eventAddressLocality: "Auckland"
 eventAddressLocalityRegion: "Auckland"
-eventPostalCode: "1990"
+eventPostalCode: "1010"
 eventAddressCountry: "New Zealand"
 eventStartTime: "2017-11-09T10:00"
 eventDoorTime: "09:00"
@@ -102,13 +110,13 @@ venueBigImage: "venue_0.jpg"
 venueSmallImage1: "venue_1.jpg"
 venueSmallImage2: "venue_2.jpg"
 venueSmallImage3: "venue_3.jpg"
-venueTitle: "Kinopalace Cinema"
-venueFeatures: ["3 huge cinema screens", "Doulby Digital Surround EX audio system", "Located directly in the city center"]
+venueTitle: "Aotea Centre"
+venueFeatures: ["New Zealand's largest tiered auditorium", "Perfect for conventions", "Located directly in the city center"]
 
 # Tweets Feed Block
 tweetsFeedImage: "twitter-feed.jpg"
 tweetsFeedTitle: "What's Up?"
-twitterHashTag: "devfest"
+twitterHashTag: "NetHui"
 twitterFeed: "http://lviv.gdg.org.ua/tweetledee/favoritesjson.php?c=10&cache_interval=8000"
 
 # Partners Block
@@ -119,7 +127,7 @@ partnersC4sponsorsButton: "Become a sponsor"
 # Subscribe Block
 subscribeImage: "subscribe.jpg"
 subscribeTitle: "Subscribe for updates"
-subscribeAction: "http://gdg.us5.list-manage1.com/subscribe/post?u=9fc8aa205b0521b5f05fc8e1e&amp;id=ae0fb459fc"
+subscribeAction: "https://gdg.us5.list-manage1.com/subscribe/post?u=9fc8aa205b0521b5f05fc8e1e&amp;id=ae0fb459fc"
 subscribeInfo: "Registration will be open around end of August. Number of tickets are limited. Stay tuned!"
 
 # Tickets Block
@@ -166,20 +174,17 @@ ticketsOffers:
 
 # Footer
 socialLinks:
- - {link: "https://plus.google.com/b/102444623953913144164", icon: "google-plus"}
- - {link: "https://twitter.com/intent/user?screen_name=GDGLviv", icon: "twitter"}
- - {link: "https://facebook.com/GDGLviv", icon: "facebook"}
- - {permalink: "/feed.xml", icon: "rss"}
+ - {link: "https://twitter.com/intent/user?screen_name=NetHuiNZ", icon: "twitter"}
+ - {link: "https://www.facebook.com/NetHuiNZ", icon: "facebook"}
 footerBlocks:
  -
   title: "Links"
   links:
-   - {link: "http://gdg.org.ua", text: "GDG.org.ua"}
-   - {link: "https://developers.google.com", text: "Google Developers"}
+   - {link: "http://internetnz.nz/", text: "InternetNZ"}
  -
   title: "Contacts"
   links:
-   - {link: "mailto:lviv@gdg.org.ua", text: "lviv@gdg.org.ua"}
+   - {link: "mailto:nethui@internetnz.net.nz", text: "nethui@internetnz.net.nz"}
  -
   title: "FAQ"
   links:

@@ -1,7 +1,7 @@
 - 
   group: "Main organizer"
   elements: 
-    - {name: "GDG Lviv", description: "GDG Lviv - Open and volunteer geek community", link: "http://lviv.gdg.org.ua", imageUrl: "gdg-lviv.svg"}
+    - {name: "InternetNZ", description: "Our vision is for a better world through a better Internet.", link: "http://internetnz.nz/", imageUrl: "INNZ.png"}
 - 
   group: "Co-organizers"
   elements: 
