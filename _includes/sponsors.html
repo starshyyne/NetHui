@@ -2,9 +2,12 @@
 <section id="partners" class="partners">
     <div class="content-wrapper">
         <div class="col-lg-10 col-lg-offset-1">
-            <h3>{{ site.organizersTitle }}</h3>
+            <h3 class="editable">Sponsors and community supporters</h3>
             {% for organizer in site.data.organizers %}
-            <h5>{{ organizer.group }}</h5>
+            <div class="editable">
+                <p>NetHui wouldn’t be possible without the generous support of our sponsors. If you would like to sponsor NetHui 2017 please take a look at our sponsorship prospectus and contact megan@internetnz.net.nz to discuss options.</p>  
+                <p>We would like to thank all of our sponsors and community supporters:</p>
+            </div>
             <ul class="list-inline">
                 {% for element in organizer.elements %}
                 <li {% if element.width != null %}style="width: {{ element.width }};"{% endif %}>
