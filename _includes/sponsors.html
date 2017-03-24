@@ -3,11 +3,13 @@
     <div class="content-wrapper">
         <div class="col-lg-10 col-lg-offset-1">
             <h3 class="editable">Sponsors and community supporters</h3>
-            {% for sponsors in site.data.sponsors %}
             <div class="editable">
                 <p>NetHui wouldn’t be possible without the generous support of our sponsors. If you would like to sponsor NetHui 2017 please take a look at our sponsorship prospectus and contact megan@internetnz.net.nz to discuss options.</p>  
                 <p>We would like to thank all of our sponsors and community supporters:</p>
             </div>
+            <h3>{{ site.sponsorsTitle }}</h3>
+            {% for sponsors in site.data.sponsors %}
+            <h5>{{ sponsors.group }}</h5>
             <ul class="list-inline">
                 {% for element in sponsors.elements %}
                 <li {% if element.width != null %}style="width: {{ element.width }};"{% endif %}>
@@ -18,6 +20,7 @@
                 {% endfor %}
             </ul>
             {% endfor %}
+            
         </div>
     </div> 
 </section>
