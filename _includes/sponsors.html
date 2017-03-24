@@ -9,7 +9,7 @@
                 <p>We would like to thank all of our sponsors and community supporters:</p>
             </div>
             <ul class="list-inline">
-                {% for element in sponsor.elements %}
+                {% for element in sponsors.elements %}
                 <li {% if element.width != null %}style="width: {{ element.width }};"{% endif %}>
                     <a href="{{ element.link }}" target="_blank">
                         <img src="{{ site.baseurl }}/img/sponsors/{{ element.imageUrl }}" title="{{ element.description }}" alt="{{ element.name }}">
