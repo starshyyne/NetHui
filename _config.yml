@@ -45,6 +45,7 @@ navigationLinks:
  - {permalink: "/", text: "Home"}
  - {permalink: "/about", text: "About NetHui"}
  - {permalink: "/code-of-conduct", text: "Code of Conduct"}
+ - {permalink: "/get-involved", text: "Get Involved"}
  - {permalink: "/blog/", text: "Blog"}
  - {permalink: "/schedule/", text: "Schedule"}
  - {permalink: "/speakers/", text: "Speakers"}
