@@ -49,7 +49,7 @@ navigationLinks:
  - {permalink: "/blog/", text: "Blog"}
  - {permalink: "/programme/", text: "Programme"}
  - {permalink: "/speakers/", text: "Speakers"}
-  - {permalink: "/sponsors/", text: "Sponsors and Supporters"}
+ - {permalink: "/sponsors/", text: "Sponsors and Supporters"}
  - {permalink: "/team/", text: "Team"}
  - {permalink: "/logistics/", text: "Logistics"}
  - {permalink: "/hackathon/", text: "Hackathon"}
