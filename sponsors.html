@@ -7,10 +7,29 @@ color: '#a4b958'
 
  {% include top-section.html %}
 
-<section id="programme" class="programme">
+<!-- Begin Sponsors Section -->
+<section id="sponsors" class="partners">
     <div class="content-wrapper">
-        <div class="col-lg-10">
-             <div class="editable"><p>The programme for NetHui will not be live until later on in the year. This is because the programme is set by you - the community who want to attend.</p><p>Our first consultation has been completed where we asked about theming and keynote speaker ideas. We are currently working our way through the feedback.</p><p>In a few months we will open another consultation where you&rsquo;ll have the chance to tell us what specific topics you want to see at NetHui 2017 and suggest a topic you might like to run a session on. You&rsquo;ll also get a chance to let us know if you would like to facilitate a session. Check back here for more information about this process.</p></div>
+        <div class="col-lg-10 col-lg-offset-1">
+            <h3 class="editable">Sponsors and community supporters</h3>
+            <div class="editable">
+                <p>NetHui wouldn’t be possible without the generous support of our sponsors. If you would like to sponsor NetHui 2017 please take a look at our sponsorship prospectus and contact megan@internetnz.net.nz to discuss options.</p>  
+                <p>We would like to thank all of our sponsors and community supporters:</p>
+            </div>
+            {% for sponsors in site.data.sponsors %}
+            <h5>{{ sponsors.group }}</h5>
+            <ul class="list-inline">
+                {% for element in sponsors.elements %}
+                <li {% if element.width != null %}style="width: {{ element.width }};"{% endif %}>
+                    <a href="{{ element.link }}" target="_blank">
+                        <img src="{{ site.baseurl }}/img/sponsors/{{ element.imageUrl }}" title="{{ element.description }}" alt="{{ element.name }}">
+                    </a>
+                </li>
+                {% endfor %}
+            </ul>
+            {% endfor %}
+            
         </div>
-    </div>
+    </div> 
 </section>
+<!-- End Sponsors Section -->
