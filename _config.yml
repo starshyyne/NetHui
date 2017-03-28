@@ -50,6 +50,7 @@ navigationLinks:
  - {permalink: "/programme/", text: "Programme"}
  - {permalink: "/speakers/", text: "Speakers"}
  - {permalink: "/sponsors/", text: "Sponsors and Supporters"}
+ - {permalink: "/register/", text: "Register"}
  - {permalink: "/team/", text: "Team"}
  - {permalink: "/logistics/", text: "Logistics"}
  - {permalink: "/hackathon/", text: "Hackathon"}
