@@ -44,11 +44,12 @@ c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
 navigationLinks:
  - {permalink: "/", text: "Home"}
  - {permalink: "/about", text: "About NetHui"}
- - {permalink: "/code-of-conduct", text: "Code of Conduct"}
+ # - {permalink: "/code-of-conduct", text: "Code of Conduct"}
+ # - {permalink: "/news/", text: "News"}
  - {permalink: "/get-involved", text: "Get Involved"}
- - {permalink: "/news/", text: "News"}
  - {permalink: "/programme/", text: "Programme"}
- - {permalink: "/speakers/", text: "Speakers"}
+ # - {permalink: "/speakers/", text: "Speakers"}
+ - {permalink: "/venue/", text: "Venue"}
  - {permalink: "/sponsors/", text: "Sponsors and Supporters"}
  - {permalink: "/register/", text: "Register"}
 bottomNavigationLinks:

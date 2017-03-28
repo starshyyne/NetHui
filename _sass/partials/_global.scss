@@ -17,7 +17,6 @@ section {
     min-height: $min-section-height;
     padding-top: $section-padding-top;
     padding-bottom: $section-padding-bottom;
-    text-align: center;
     @media (max-width: 767px) {
         padding-top: $small-section-padding-top;
         padding-bottom: $small-section-padding-bottom;
