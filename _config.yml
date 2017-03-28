@@ -46,7 +46,7 @@ navigationLinks:
  - {permalink: "/about", text: "About NetHui"}
  - {permalink: "/code-of-conduct", text: "Code of Conduct"}
  - {permalink: "/get-involved", text: "Get Involved"}
- - {permalink: "/blog/", text: "Blog"}
+ - {permalink: "/news/", text: "News"}
  - {permalink: "/programme/", text: "Programme"}
  - {permalink: "/speakers/", text: "Speakers"}
  - {permalink: "/sponsors/", text: "Sponsors and Supporters"}
