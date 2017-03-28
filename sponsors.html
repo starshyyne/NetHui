@@ -12,9 +12,9 @@ color: '#a4b958'
     <div class="content-wrapper">
         <div class="col-lg-10 col-lg-offset-1">
             <h3 class="editable">Sponsors and community supporters</h3>
-            <div class="editable"><p>NetHui wouldn&rsquo;t be possible without our generous sponsors. Thank you to all the sponsors below who are helping to make NetHui 2017 happen.</p></div>
             {% for sponsors in site.data.sponsors %}
             <h5>{{ sponsors.group }}</h5>
+            <div class="editable"><p>NetHui wouldn&rsquo;t be possible without our generous sponsors. Thank you to all the sponsors below who are helping to make NetHui 2017 happen.</p></div>
             <ul class="list-inline">
                 {% for element in sponsors.elements %}
                 <li {% if element.width != null %}style="width: {{ element.width }};"{% endif %}>
