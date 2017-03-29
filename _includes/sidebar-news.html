@@ -1,9 +1,11 @@
 <!-- Begin Sidebar News Section -->
 <aside class="sidebar-news">
     <h4>NetHui News</h4>
-    <p>RECENT POSTS<p>
-{% for post in site.posts limit:10 %}	
-    <p class="post-link"><a href="{{ post.url }}">{{ post.title }}</a></p>
-{% endfor %}	
+    <h6>RECENT POSTS<h6>
+    <ul>
+        {% for post in site.posts limit:10 %}	
+        <li class="post-link"><a href="{{ post.url }}">{{ post.title }}</a></li>
+        {% endfor %}
+    </ul>	
 </aside>
 <!-- End Latest News Section -->
