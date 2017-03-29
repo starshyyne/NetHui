@@ -11,14 +11,8 @@
 
 #latest-news.latest-news {
     background: #dddddd;
-    -webkit-mask-image: url(../assets/images/mask-right.svg);
-    mask-image: url(../assets/images/mask-right.svg);
-    -webkit-mask-position: top center;
-    mask-position: top center;
-    -webkit-mask-size: cover;
-    mask-size: cover;
-    -webkit-mask-repeat: no-repeat;
-    mask-repeat: no-repeat;
+    -webkit-clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
     h2 {
         text-align: center;
         @include header-border-center;
@@ -33,6 +27,9 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right center;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
+    padding-bottom: 120px;
     h2 {
         text-align: center;
         color: white;
