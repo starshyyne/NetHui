@@ -6,6 +6,7 @@
 // Custom variables
 $nethui-blue: #24384a;
 $nethui-teal: #1a6b7f;
+$nethui-sky-blue: #00abcd;
 
 // Font weights
 $light: 100;
@@ -28,10 +29,18 @@ $fixed-line-height: $base-line-height;
 $header-font-weight: $bold;
 $headings-font-family: 'Open Sans Condensed', sans-serif;
 $headings-color: $nethui-blue;
-$h1-font-size: 6.125 * $base-font-size;
-$h2-font-size: 5.875 * $base-font-size;
-$h3-font-size: 5 * $base-font-size;
-$h4-font-size: 3.125 * $base-font-size;
+// $h1-font-size: 6.125 * $base-font-size;
+// $h2-font-size: 5.875 * $base-font-size;
+// $h3-font-size: 5 * $base-font-size;
+// $h4-font-size: 3.125 * $base-font-size;
+// $h5-font-size: 2.3 * $base-font-size;
+// $h6-font-size: 1.875 * $base-font-size;
+
+// Nethui Heading sizes
+$h1-font-size: 60px;
+$h2-font-size: 60px;
+$h3-font-size: 48px;
+$h4-font-size: 30px;
 $h5-font-size: 2.3 * $base-font-size;
 $h6-font-size: 1.875 * $base-font-size;
 
@@ -65,3 +74,28 @@ $sprites-dir: $image-dir + "/sprites";
 $logos-sprite: $sprites-dir + "/logos.svg";
 
 @import "modules/all";
+
+
+// NetHui Mixins
+
+@mixin header-border-center {
+    &:after {
+        display: block;
+        content: "";
+        width: 110px;
+        height: 2px;
+        background: $nethui-sky-blue;
+        margin: 40px auto;
+    }
+}
+
+@mixin header-border-bottom {
+    &:after {
+        display: block;
+        content: "";
+        width: 110px;
+        height: 2px;
+        background: $nethui-sky-blue;
+        margin: 20px 0;
+    }
+}

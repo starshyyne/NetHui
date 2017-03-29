@@ -1,13 +1,16 @@
 .btn {
     font-weight: $bold;
     transition: $base-cubic-transition;
+    font-size: 22px;
+    padding: 6px 20px;
 }
 .btn-primary {
     color: #fff !important;
     user-select: none;
     text-transform: uppercase;
     border: 0;
-    background: $primary-color !important;
+    background: $nethui-sky-blue !important;
+    font-family: $headings-font-family;
     &:hover, &:focus, &:active, &.active {
         outline: none;
         color: #fff;
