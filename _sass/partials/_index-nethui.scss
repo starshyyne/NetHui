@@ -11,6 +11,14 @@
 
 #latest-news.latest-news {
     background: #dddddd;
+    -webkit-mask-image: url(../assets/images/mask-right.svg);
+    mask-image: url(../assets/images/mask-right.svg);
+    -webkit-mask-position: top center;
+    mask-position: top center;
+    -webkit-mask-size: cover;
+    mask-size: cover;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
     h2 {
         text-align: center;
         @include header-border-center;
