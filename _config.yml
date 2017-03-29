@@ -289,7 +289,7 @@ hackathonMapCenterCoordinates: "49.840696, 24.028754"
 hackathonMapMobileCenterCoordinates: "49.841639, 24.031182"
 
 # Cloud cannon uploads
-uploads_dir: "assets/images"
+uploads_dir: "/assets/images"
 _editable_regions:
   image:
     url_src: true

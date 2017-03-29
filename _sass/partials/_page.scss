@@ -55,9 +55,13 @@ aside.sidebar-news {
     h4 {
         font-family: $fixed-font-family;
         text-align: center;
-        border: 2px solid $nethui-blue;
+        border: 2px solid $nethui-teal;
         margin: 1em 0 1em 0;
         padding: 10px;
+        color: $nethui-teal;
+    }
+    h6 {
+        padding-bottom: 20px;
     }
 }
 
