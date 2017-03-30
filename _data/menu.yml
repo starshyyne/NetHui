@@ -1,0 +1,37 @@
+- title: "Home"
+  href: "/"
+
+- title: "About NetHui"
+  subcategories:
+    - subtitle: "About"
+      subhref: "/about/"
+    - subtitle: "Code of Conduct"
+      subhref: "/code-of-conduct/"
+    - subtitle: "News"
+      subhref: "/news/"
+      
+- title: "Get Involved"
+  href: "/get-involved/"
+
+- title: "Programme"
+  subcategories:
+    - subtitle: "Programme"
+      subhref: "/programme/"
+    - subtitle: "Speakers and MC"
+      subhref: "/speakers/"
+      
+- title: "Venue"
+  href: "/venue/"
+
+- title: "Sponsors and Supporters"
+  subcategories:
+    - subtitle: "Sponsors"
+      subhref: "/sponsors/"
+    - subtitle: "Supporters"
+      subhref: "/supporters/"
+    - subtitle: "Sponsorship Opportunities"
+      subhref: "/opportunities/"
+
+
+- title: "Register"
+  href: "/register/"
