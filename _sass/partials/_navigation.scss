@@ -121,7 +121,7 @@ nav {
                 display: block;
                 padding: 13px 15px 13px 15px;
                 transition: $base-transition;
-                text-transform: none;
+                text-transform: uppercase;
                 color: #fff;
                 outline: 0;
             }
@@ -171,14 +171,20 @@ nav {
     height: 20px;
     fill: #e6e6e6;
     .top-header.after-scroll & {
-        fill: #464646;
+        // fill: #464646;
+        fill: #ffffff;
     }
 }
 .menu-trigger {
     float: right;
-    transform: translateY(20px);
+    // transform: translateY(20px);
+    transform: translateY(15px);
     right: 45px;
     transition: $base-transition;
+    width: 35px;
+    height: 35px;
+    border: 1px solid white;
+    padding: 3px;
 }
 .bottom-navlinks {
     position: absolute;
@@ -208,6 +214,10 @@ nav {
 
 #header-social {
     float: right;
+    display: none;
+    @media (min-width: 767px) {
+        display: block;
+    }
     .twitter {
         padding: 20px 10px;
         &:hover {
