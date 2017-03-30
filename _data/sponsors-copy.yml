@@ -1,0 +1,10 @@
+- 
+  group: "Gold Sponsors"
+  elements: 
+    - {name: "InternetNZ", description: "Our vision is for a better world through a better Internet.", longDescription: "InternetNZ is a non-profit and open membership organisation. Our vision is for a better world through a better Internet. We promote the Internet's benefits. We protect its potential. And we focus on advancing an open and uncapturable Internet for New Zealand.", link: "http://internetnz.nz/", imageUrl: "INNZ.png"}
+- 
+  group: "Silver Sponsors"
+  elements: 
+    - {name: "GDG Lviv", description: "GDG Kyiv - Open and volunteer geek community", longDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", link: "http://kyiv.gdg.org.ua", imageUrl: "gdg-kyiv.svg"}
+    - {name: "GDG Cherkassy", description: "GDG Cherkassy - Open and volunteer geek community", longDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", link: "http://cherkassy.gdg.org.ua", imageUrl: "gdg-cherkasy.svg"}
+    - {name: "GDG Dnipropetrovsk", description: "GDG Dnipropetrovsk - Open and volunteer geek community", longDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", link: "http://dnipro.gdg.org.ua", imageUrl: "gdg-dnipropetrovsk.svg"}
