@@ -108,13 +108,13 @@ nav {
             display: block;
         }
         a {
-            font-size: $base-font-size;
+            font-size: 16px;
             font-weight: $regular;
             transition: $base-transition;
             text-transform: uppercase;
             color: $nav-color;
             font-family: $headings-font-family;
-            padding: 24px 8px;
+            padding: 24px 12px;
             display: inline-block;
             @media (max-width: 767px) {
                 font-size: 16px;
@@ -228,6 +228,51 @@ nav {
         padding: 16px 10px;
         &:hover {
             background: $nethui-teal;
+        }
+    }
+}
+
+// Drop downs
+
+.main-menu {
+    li.dropdown {
+        position: relative;
+        &:hover,
+        &:focus,
+        &:active {
+            background: $nethui-teal;
+        }
+        &:after {
+            content: "▼";
+            position: absolute;
+            bottom: 7px;
+            width: 100%;
+            text-align: center;
+            font-size: 10px;
+        }
+    }
+    li.dropdown ul.dropdown-menu {
+        display: none;
+        position: absolute;
+        top: 67px;
+        left: 0px;
+        background: $nethui-teal;
+        padding: 0px;
+    }
+    li.dropdown:hover ul.dropdown-menu {
+        display: block;
+    }
+    ul.dropdown-menu li {
+        border-top: 2px solid white;
+        display: block;
+        &:hover {
+            background: $nethui-blue;
+        }
+        a {
+            padding: 12px;
+            &:hover {
+                background: $nethui-blue;
+            }
         }
     }
 }

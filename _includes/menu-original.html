@@ -1,0 +1,22 @@
+<nav class="navbar-test" role="navigation">
+    <ul class="nav-test">
+
+    {% for menu in site.data.menu %}
+
+        {% if menu.subcategories != null %}
+        <li class="dropdown">
+            <a href="{{ site.url }}{{ menu.url }}" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">{{ menu.title }}</a>
+                <ul class="dropdown-menu">
+                {% for subcategory in menu.subcategories %}
+                    <li><a href="{{ site.url }}{{ subcategory.subhref }}">{{ subcategory.subtitle }}</a></li>
+                {% endfor %}
+                </ul>
+            {% else %}
+            <!— display the top level navigation for items that don’t have a submenu -->
+        <li>
+        <a href="{{ site.url }}{{ menu.href }}">{{ menu.title }}</a>
+        {% endif %}
+        </li>
+    {% endfor %}
+    </ul>
+</nav>
