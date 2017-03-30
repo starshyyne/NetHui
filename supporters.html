@@ -20,7 +20,7 @@ color: '#a4b958'
                     {% for supporter in site.data.supporters %}
                     <div class="row">
                         <div class="col-sm-3 supporter-image">
-                            <a href="{{ link }}" target="_blank">
+                            <a href="{{ supporter.link }}" target="_blank">
                                 <img src="{{ site.baseurl }}/img/sponsors/{{ supporter.imageUrl }}" title="{{ supporter.description }}" alt="{{ supporter.name }}" />
                             </a>
                         </div>
