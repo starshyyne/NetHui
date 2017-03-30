@@ -4,17 +4,14 @@
         <div class="col-lg-10 col-lg-offset-1">
             <div class="text-container">
                 <h3 class="editable">Sponsors and community supporters</h3>
-                <div class="editable">
-                    <p>NetHui wouldn’t be possible without the generous support of our sponsors. If you would like to sponsor NetHui 2017 please take a look at our sponsorship prospectus and contact megan@internetnz.net.nz to discuss options.</p>  
-                    <p>We would like to thank all of our sponsors and community supporters:</p>
-                </div>
+                <div class="editable"><p>NetHui wouldn&rsquo;t be possible without the generous support of our sponsors. If you would like to sponsor NetHui 2017 please take a look at our <a href="/zeppelin/assets/NetHui_sponsorship_prospectus_2017.pdf">sponsorship prospectus</a> and contact <a href="javascript:void(location.href='mailto:'+String.fromCharCode(109,101,103,97,110,64,105,110,116,101,114,110,101,116,110,122,46,110,101,116,46,110,122))">megan@internetnz.net.nz</a> to discuss options.</p><p>We would like to thank all of our sponsors and community supporters:</p></div>
                 {% for sponsors in site.data.sponsors %}
                 <h5>{{ sponsors.group }}</h5>
                 <ul class="list-inline">
                     {% for element in sponsors.elements %}
                     <li {% if element.width != null %}style="width: {{ element.width }};"{% endif %}>
                         <a href="{{ element.link }}" target="_blank">
-                            <img src="{{ site.baseurl }}/img/sponsors/{{ element.imageUrl }}" title="{{ element.description }}" alt="{{ element.name }}">
+                            <img src="{{ site.baseurl }}/img/sponsors/{{ element.imageUrl }}" title="{{ element.description }}" alt="{{ element.name }}" />
                         </a>
                     </li>
                     {% endfor %}
