@@ -31,10 +31,11 @@
     overflow: auto;
     position: static;
     min-height: auto;
+    padding-bottom: 80px;
     @media (min-width: 767px) {
         width: 75%;
         float: left;
-        padding-right: 10px;
+        padding-right: 40px;
     }
 }
 
@@ -43,6 +44,7 @@
     overflow: auto;
     position: static;
     min-height: auto;
+    padding-bottom: 80px;
 }
 
 aside.sidebar-news {
@@ -56,7 +58,7 @@ aside.sidebar-news {
         font-family: $fixed-font-family;
         text-align: center;
         border: 2px solid $nethui-teal;
-        margin: 1em 0 1em 0;
+        margin: 20px 0 1em 0;
         padding: 10px;
         color: $nethui-teal;
     }
@@ -66,10 +68,33 @@ aside.sidebar-news {
 }
 
 .text-container {
+    h2:nth-child(1) {
+        margin-top: 10px;
+    }
     h2 {
-        margin: 1em 0;
+        border-bottom: 2px solid;
+        text-shadow: 3px 0 #fff, 2px 0 #fff, 1px 0 #fff, -1px 0 #fff, -2px 0 #fff, -3px 0 #fff;
     }
     h3 {
         margin: 1em 0;
     }
+}
+
+.row {
+    margin: 0px;
+}
+
+// Custom margins - no stupid 0 margins!
+h1, .h1 {
+    margin: 0.67em 0;
+}
+h2, .h2 {
+    margin: 0.83em 0;
+}
+h3, .h3 {
+    margin: 1em 0;
+}
+
+h4, h5 {
+    color: $text-color;
 }

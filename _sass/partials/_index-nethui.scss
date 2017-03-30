@@ -23,11 +23,16 @@
 }
 
 #latest-news.latest-news {
-    background: #dddddd;
+    background: #dddddd url(../assets/images/bg-texture-light.png);
     padding-top: 100px;
     h2 {
         text-align: center;
         @include header-border-center;
+    }
+    .post p {
+        word-spacing: 1px;
+        font-size: 18px;
+        line-height: 24px;
     }
     .post h4 {
         @include header-border-bottom;
@@ -71,5 +76,30 @@
         position: absolute;
         top: -55px;
         transform: skewY(4deg);
+    }
+    .editable p {
+        word-spacing: 1px;
+        font-size: 18px;
+        line-height: 24px;
+    }
+}
+
+.sponsors-whole-page {
+    .sponsors-list {
+        padding-bottom: 50px;
+    }
+    h5 {
+        margin: 1em 0 1em 0;
+        border-bottom: 1px solid #dddddd;
+        text-transform: uppercase;
+    }
+    .sponsor-grid .row {
+        padding: 20px 0;
+    }
+    .sponsor-image {
+        padding-left: 0px;
+    }
+    .sponsor-image img {
+        max-width: 100%;
     }
 }

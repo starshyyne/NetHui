@@ -7,6 +7,7 @@
 $nethui-blue: #24384a;
 $nethui-teal: #1a6b7f;
 $nethui-sky-blue: #00abcd;
+$text-color: #363636;
 
 // Font weights
 $light: 100;
@@ -46,7 +47,7 @@ $h6-font-size: 1.875 * $base-font-size;
 
 // Colors
 $main-color: #03a9f4;
-$link-color: $main-color;
+$link-color: $nethui-sky-blue;
 $link-lighten-amount: 20%;
 $base-background-color: #fff;
 $base-section-background-color: $link-color;
@@ -98,4 +99,8 @@ $logos-sprite: $sprites-dir + "/logos.svg";
         background: $nethui-sky-blue;
         margin: 20px 0;
     }
+}
+
+a:hover, a:active, a:focus {
+    text-decoration: underline;
 }

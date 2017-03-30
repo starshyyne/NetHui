@@ -9,37 +9,52 @@ color: '#a4b958'
 
 <div class="content-wrapper">
 
-    <div class="section-with-sidebar">
-    <!-- Begin Sponsors Section -->
-    <section id="sponsors" class="partners">
+    <section id="sponsors" class="sponsors-whole-page section-with-sidebar">
+
+        <!-- Begin Sponsors Section -->
+        <div class="sponsors-list test">
             <div class="text-container">
                 <h2 class="editable">Sponsors and community supporters</h2>
+                <div class="editable"><p>We are very grateful to our community supporters below who help us promote NetHui and are general supporters of the event.</p><p>If you would like to be a community supporter and help us make NetHui 2017 the best yet, please contact megan@internetnz.net.nz.</p></div>
                 {% for sponsors in site.data.sponsors %}
                 <h5>{{ sponsors.group }}</h5>
-                <div class="editable"><p>We are very grateful to our community supporters below who help us promote NetHui and are general supporters of the event.</p><p>If you would like to be a community supporter and help us make NetHui 2017 the best yet, please contact megan@internetnz.net.nz.</p></div>
-                <ul class="list-inline">
+                <div class="sponsor-grid">
                     {% for element in sponsors.elements %}
-                    <li {% if element.width != null %}style="width: {{ element.width }};"{% endif %}>
-                        <a href="{{ element.link }}" target="_blank">
-                            <img src="{{ site.baseurl }}/img/sponsors/{{ element.imageUrl }}" title="{{ element.description }}" alt="{{ element.name }}" />
-                        </a>
-                    </li>
+                    <div class="row">
+                        <div class="col-sm-3 sponsor-image">
+                            <a href="{{ element.link }}" target="_blank">
+                                <img src="{{ site.baseurl }}/img/sponsors/{{ element.imageUrl }}" title="{{ element.description }}" alt="{{ element.name }}" />
+                            </a>
+                        </div>
+                        <div class="col-sm-9 sponsor-details">
+                            <h4>
+                                <a href="{{ element.link }}" target="_blank">{{ element.name }}</a>
+                            </h4>
+                            <p>{{ element.longDescription }}</p>
+                        </div>
+                    </div>
                     {% endfor %}
-                </ul>
+                </div>
                 {% endfor %}
-                
             </div>
-    </section>
-    <!-- End Sponsors Section -->
-    <section>
-            <div class-"text-container">
+        </div>
+        <!-- End Sponsors Section -->
+
+        <div class="section-with-sidebar sponsor-opportunities">
+            <div class="text-container">
                 <div class="editable"><h2>Sponsorship opportunities</h2><p>Being involved in NetHui will provide unique opportunities for you to:</p><ul><li>position your organisation as a key supporter of the development of New Zealand&rsquo;s Internet</li><li>access a hugely diverse set of attendees all interested in shaping the Internet and using its potential for the good of New Zealand</li><li>be &lsquo;in the room&rsquo; as the community and tech sector debate key issues and opportunities that will shape the Internet world.</li></ul><p>Based on previous events we are expecting to attract about 500 attendees including tech sector employees, start-up enthusiasts, government officials, education providers and people from the general public who are interested in tech/digital and the way the Internet is changing our lives.</p><p>There are a variety of sponsorship opportunities available for you with options to suit different needs and budgets. These options are outlined in more detail in the sponsorship prospectus below.</p><p>For more information about the sponsorship packages available, or to talk about packages outside those listed that you may be interested in, please contact Megan by emailing megan@internetnz.net.nz or calling Megan on 027 259 1425.</p><p><br /><a href="/zeppelin/assets/NetHui_sponsorship_prospectus_2017.pdf">NetHui 2017 sponsorship prospectus</a></p></div>
             </div>
+        </div>
+
+
+
+
     </section>
-    </div>
 
      {% include sidebar-news.html %}
 
  </div>
 
   {% include social.html %}
+
+  {% include sponsors-page.html %}
