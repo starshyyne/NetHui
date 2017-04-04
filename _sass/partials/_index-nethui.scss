@@ -42,6 +42,9 @@
     .post h4 {
         @include header-border-bottom;
     }
+    .post h4 a {
+        color: $nethui-blue;
+    }
 }
 
 #social.social {
