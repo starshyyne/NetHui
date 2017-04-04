@@ -35,5 +35,6 @@
 
 - title: "Register"
   href: "/register/"
+  subcategories:
     - subtitle: "Fellowships"
       subhref: "/fellowships/"
