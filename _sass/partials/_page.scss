@@ -1,11 +1,14 @@
+// NetHui specific styles
+
 #top-section-hero,
 #page-section-hero {
     max-width: 100%;
     text-align: center;
     padding: 0px;
+    background-position: right center;
 }
 
-#top-section-hero {
+#top-section-hero {  
     .content-wrapper {
         max-width: 100%;
         margin: auto;

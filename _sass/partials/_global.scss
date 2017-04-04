@@ -92,6 +92,10 @@ time {
 .st-content, .st-container, .st-pusher {
     height: 100%;
 }
+// We don't want the hero block to be 100%
+.st-container {
+    height: 80%;
+}
 .st-content, .st-container, .st-content-inner {
     position: relative;
 }
