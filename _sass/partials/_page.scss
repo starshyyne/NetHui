@@ -81,6 +81,9 @@ aside.sidebar-news {
     h3 {
         margin: 1em 0;
     }
+    .row > div:first-child {
+        padding-left: 0px;
+    }
 }
 
 .row {
