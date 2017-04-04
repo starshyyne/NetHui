@@ -48,10 +48,10 @@
 }
 
 #social.social {
-    background-image: url('../assets/images/tui-background.jpg');
+    background-image: url('../assets/images/social-background4.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: right center;
+    background-position: right bottom;
     padding-bottom: 150px;
     text-align: center;
     h2 {
@@ -61,6 +61,16 @@
     .twitter {
         @media (max-width: 767px) {
             padding-bottom: 30px;
+        }
+    }
+    .col-md-6.twitter {
+        @media (min-width: 1000px) {
+            text-align: right;
+        }
+    }
+    .col-md-6.facebook {
+        @media (min-width: 1000px) {
+            text-align: left;
         }
     }
 }
