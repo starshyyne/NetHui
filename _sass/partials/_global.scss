@@ -92,9 +92,12 @@ time {
 .st-content, .st-container, .st-pusher {
     height: 100%;
 }
-// We don't want the hero block to be 100%
+// We don't want the hero block to be 100% on desktop
 .st-container {
-    height: 80%;
+    height: 100%;
+    @media (min-width: 1120px) {
+        height: 80%;
+    }
 }
 .st-content, .st-container, .st-content-inner {
     position: relative;
