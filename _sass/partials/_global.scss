@@ -95,7 +95,7 @@ time {
 // We don't want the hero block to be 100% on desktop
 .st-container {
     height: 100%;
-    @media (min-width: 1120px) {
+    @media (min-width: 1120px) and (min-height: 800px) {
         height: 80%;
     }
 }
