@@ -205,46 +205,63 @@ nav {
     }
     li.dropdown {
         position: relative;
+        > a {
+            display: none;
+            @media (min-width: 835px) {
+                display: block;
+            }
+        }
         &:hover,
         &:focus,
         &:active {
-            background: $nethui-teal;
+            @media (min-width: 835px) {
+                background: $nethui-teal;
+            }
         }
         &:after {
-            position: absolute;
-            content: "";
-            top: 50%;
-            left: 50%;
-            width: 0;
-            margin: 16px 0 0 -4px;
-            height: 0;
-            border-style: solid;
-            border-width: 8px 6px 0 6px;
-            border-color: #fff transparent transparent transparent;
+            @media (min-width: 835px) {
+                position: absolute;
+                content: "";
+                top: 50%;
+                left: 50%;
+                width: 0;
+                margin: 16px 0 0 -4px;
+                height: 0;
+                border-style: solid;
+                border-width: 8px 6px 0 6px;
+                border-color: #fff transparent transparent transparent;
+            }
         }
     }
     li.dropdown ul.dropdown-menu {
-        display: none;
-        position: absolute;
-        top: 67px;
-        left: 0px;
-        background: $nethui-teal;
-        padding: 0px;
+        margin: 0px;
+        float: none;
+        @media (min-width: 835px) {
+            margin: auto;
+            display: none;
+            position: absolute;
+            top: 67px;
+            left: 0px;
+            background: $nethui-teal;
+            padding: 0px;
+        }
     }
     li.dropdown:hover ul.dropdown-menu {
         display: block;
     }
     ul.dropdown-menu li {
-        border-top: 2px solid white;
         display: block;
-        &:hover {
-            background: $nethui-blue;
-        }
-        a {
-            padding: 12px;
+        @media (min-width: 835px) {
+            border-top: 2px solid white;
+            a:hover {
+                background: $nethui-blue;
+            }
             &:hover {
                 background: $nethui-blue;
             }
+        }
+        a {
+            padding: 12px;
         }
     }
 }
