@@ -17,11 +17,18 @@
             font-weight: $light;
             margin-bottom: 15px;
             @media (min-width: 767px) {
-                font-size: $base-font-size * 2;
+                font-size: 26px;
             }
         }
         .btn {
             margin: 0 3px;
+        }
+        .hero-tagline img {
+            position: relative;
+            left: -8%;
+            @media (min-width:767px) {
+                padding-top: 20px;
+            }
         }
     }
 }
