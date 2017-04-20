@@ -24,3 +24,10 @@
       longDescription: 'APNIC (Asia Pacific Network Information Centre, pronounced A-P-NIC) is an open, member-based, not-for-profit organization, whose primary role is to distribute and manage Internet number resources (IP addresses and AS numbers) in the Asia Pacific region’s 56 economies. These number resources are the building blocks for the Internet to operate and grow.'
       link: 'https://www.apnic.net/'
       imageUrl: APNIC-Formal-Logo_web.jpg
+- group: Supporting Sponsors
+  elements:
+    - name: ISOC
+      description: ISOC logo
+      longDescription: 'The Internet Society is a global cause-driven organization governed by a diverse Board of Trustees that is dedicated to ensuring that the Internet stays open, transparent and defined by you.'
+      link: 'https://www.internetsociety.org/'
+      imageUrl: ISOC-Dark-RGB_Logo_2016-08-01_EN_FINAL_v01 (1).png
