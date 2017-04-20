@@ -10,23 +10,6 @@
       longDescription: "Netflix is a streaming service that allows our customers to watch a wide variety of award-winning TV shows, movies, documentaries and more on thousands of Internet-connected devices. With Netflix, you can enjoy unlimited viewing of our content without having to watch a single commercial. There's always something new to discover, and more TV shows and movies are added every month."
       link: 'https://www.netflix.com/nz/'
       imageUrl: Netflix_Logo_Print_FourColorCMYK-PNG.png
-- group: Silver Sponsors
-  elements:
-    - name: GDG Lviv
-      description: GDG Kyiv - Open and volunteer geek community
-      longDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
-      link: 'http://kyiv.gdg.org.ua'
-      imageUrl: gdg-kyiv.svg
-    - name: GDG Cherkassy
-      description: GDG Cherkassy - Open and volunteer geek community
-      longDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
-      link: 'http://cherkassy.gdg.org.ua'
-      imageUrl: gdg-cherkasy.svg
-    - name: GDG Dnipropetrovsk
-      description: GDG Dnipropetrovsk - Open and volunteer geek community
-      longDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
-      link: 'http://dnipro.gdg.org.ua'
-      imageUrl: gdg-dnipropetrovsk.svg
 - group: Espresso Cart Sponsor
   elements:
     - name: Spark
@@ -34,3 +17,10 @@
       longDescription: 'Spark has a powerful ambition: to unleash the potential in all New Zealanders through amazing technology. Digital technology can make a significant and positive impact on our nation’s social and economic wellbeing. It can enable Kiwi companies to compete – and win – on the world stage. That’s why we’re passionate about using technology to be truly useful to our customers, helping make our country better and enriching the lives of all New Zealanders. And it’s why Spark is proud to be a supporter of NetHui, where the pivotal role of the internet to our communities and our country is discussed.'
       link: 'https://www.spark.co.nz/'
       imageUrl: Spark-Pink-horizontal-RGB.jpg
+- group: Fellowships Sponsor
+  elements:
+    - name: APNIC
+      description: APNIC logo
+      longDescription: 'APNIC (Asia Pacific Network Information Centre, pronounced A-P-NIC) is an open, member-based, not-for-profit organization, whose primary role is to distribute and manage Internet number resources (IP addresses and AS numbers) in the Asia Pacific region’s 56 economies. These number resources are the building blocks for the Internet to operate and grow.'
+      link: 'https://www.apnic.net/'
+      imageUrl: APNIC-Formal-Logo_web.jpg
