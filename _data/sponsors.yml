@@ -31,3 +31,8 @@
       longDescription: 'The Internet Society is a global cause-driven organization governed by a diverse Board of Trustees that is dedicated to ensuring that the Internet stays open, transparent and defined by you.'
       link: 'https://www.internetsociety.org/'
       imageUrl: ISOC-Dark-RGB_Logo_2016-08-01_EN_FINAL_v01 (1).png
+    - name: Department of Internal Affairs
+      description: Department of Internal Affairs logo
+      longDescription: 'The Department of Internal Affairs serves and connects people, communities and government to build a safe, prosperous and respected nation.'
+      link: 'https://www.dia.govt.nz/'
+      imageUrl: DIA colour.png
