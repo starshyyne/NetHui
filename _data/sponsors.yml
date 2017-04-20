@@ -9,7 +9,7 @@
       description: Netflix logo
       longDescription: "Netflix is a streaming service that allows our customers to watch a wide variety of award-winning TV shows, movies, documentaries and more on thousands of Internet-connected devices. With Netflix, you can enjoy unlimited viewing of our content without having to watch a single commercial. There's always something new to discover, and more TV shows and movies are added every month!"
       link: 'https://www.netflix.com/nz/'
-      imageUrl: Netflix_Logo_Print_FourColorCMYK.eps
+      imageUrl: Netflix_Logo_Print_FourColorCMYK-PNG.png
 - group: Silver Sponsors
   elements:
     - name: GDG Lviv
